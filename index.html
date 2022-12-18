@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -16,7 +15,7 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
+            <div class="container header-container">
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item">
@@ -44,10 +43,35 @@
         <main class="main">
             <div class="container main-container">
                 <section class="section" id="contacts">
-                    <h1 class="section-title">Makovskiy Nikita</h1>
-                    <ul>
-                        <li>Phone: +7(995)965-59-90</li>
-                        <li>E-mail: makovskiynd.98@gmail.com</li>
+                    <h1 class="section-title contacts-title">
+                        Makovskiy Nikita
+                    </h1>
+                    <img
+                        src="assets/img/photo.jpg"
+                        alt="Makovskiy Nikita photo"
+                        class="section-contacts-photo"
+                    />
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Phone:
+                            <a href="tel:+79959655990">+7(995)965-59-90</a>
+                        </li>
+                        <li class="section-item">
+                            E-mail:
+                            <a
+                                href="mailto:makovskiynd.98@gmail.com"
+                                title="email"
+                                >makovskiynd.98@gmail.com</a
+                            >
+                        </li>
+                        <li class="section-item">
+                            Github:
+                            <a
+                                href="https://github.com/lemoncraq"
+                                title="github"
+                                >lemoncraq</a
+                            >
+                        </li>
                     </ul>
                 </section>
                 <section class="section" id="summary">
@@ -64,12 +88,12 @@
                 </section>
                 <section class="section" id="skills">
                     <h2 class="section-title">Skills</h2>
-                    <ul>
-                        <li>HTML5, CSS3</li>
-                        <li>Javascript basics</li>
-                        <li>Vue & Vuex</li>
-                        <li>Git basics</li>
-                        <li>VS Code, IntelliJ IDEA</li>
+                    <ul class="section-list">
+                        <li class="section-item">HTML5, CSS3</li>
+                        <li class="section-item">Javascript basics</li>
+                        <li class="section-item">Vue & Vuex</li>
+                        <li class="section-item">Git basics</li>
+                        <li class="section-item">VS Code, IntelliJ IDEA</li>
                     </ul>
                 </section>
                 <section class="section" id="code">
@@ -92,24 +116,34 @@
                         }
                     </pre>
                 </section>
-                <section class="section" id="education">
+                <section class="section section-education" id="education">
                     <h2 class="section-title">Education</h2>
-                    <ul>
-                        <li>Pavlodar College of Management 2015 - 2018</li>
-                        <li>
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Pavlodar College of Management 2015 - 2018
+                        </li>
+                        <li class="section-item">
                             Tomsk State University of Control Systems and Radio
                             Electronics 2018 - 2022
                         </li>
                     </ul>
                 </section>
-                <section class="section" id="english">
+                <section class="section section-english" id="english">
                     <h2 class="section-title">English</h2>
                     <p>A2 - pre intermediate</p>
                 </section>
             </div>
         </main>
         <footer class="footer">
-            <div class="container"></div>
+            <div class="container footer-container">
+                <p>©2022</p>
+                <a href="https://github.com/lemoncraq" class="github nav-link"
+                    >lemoncraq</a
+                >
+                <a href="https://rs.school/js/" class="rss"
+                    ><img src="assets/svg/rs_school_js.svg" alt="rsschool"
+                /></a>
+            </div>
         </footer>
     </body>
 </html>
